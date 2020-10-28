@@ -1,0 +1,6 @@
+﻿  detect-image.cpp
+detect-image.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl cv::Mat::copyTo(class cv::debug_build_guard::_OutputArray const &)const " (?copyTo@Mat@cv@@QEBAXAEBV_OutputArray@debug_build_guard@2@@Z)，该符号在函数 "public: class cv::Mat __cdecl cv::Mat::clone(void)const " (?clone@Mat@cv@@QEBA?AV12@XZ) 中被引用
+detect-image.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::imshow(class cv::String const &,class cv::debug_build_guard::_InputArray const &)" (?imshow@cv@@YAXAEBVString@1@AEBV_InputArray@debug_build_guard@1@@Z)，该符号在函数 main 中被引用
+detect-image.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::circle(class cv::debug_build_guard::_InputOutputArray const &,class cv::Point_<int>,int,class cv::Scalar_<double> const &,int,int,int)" (?circle@cv@@YAXAEBV_InputOutputArray@debug_build_guard@1@V?$Point_@H@1@HAEBV?$Scalar_@N@1@HHH@Z)，该符号在函数 main 中被引用
+detect-image.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::putText(class cv::debug_build_guard::_InputOutputArray const &,class cv::String const &,class cv::Point_<int>,int,double,class cv::Scalar_<double>,int,int,bool)" (?putText@cv@@YAXAEBV_InputOutputArray@debug_build_guard@1@AEBVString@1@V?$Point_@H@1@HNV?$Scalar_@N@1@HH_N@Z)，该符号在函数 main 中被引用
+G:\VisualStudio2015Pro\202010\libfaceDetection\FaDLL\x64\Debug\FaDemo.exe : fatal error LNK1120: 4 个无法解析的外部命令
